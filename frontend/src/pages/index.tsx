@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import CardCompontent from "@/components/CardCompontent";
+import Slider from "@/components/Slider";
 
 interface User {
   id: number
@@ -9,7 +10,20 @@ interface User {
 }
 
 export default function Home() {
-  const apiUrl = process.env.NEXT_PUBLIC_URL || 'http://localhost:4000';
+  
+
+
+  return (
+    <main >
+      <Slider/>
+      
+
+    </main>
+  )
+}
+
+{/*
+const apiUrl = process.env.NEXT_PUBLIC_URL || 'http://localhost:4000';
   const [user, setUser] = useState<User[]>([]);
   const [newUser, setNewUser] = useState({ name: '', email: '' });
   const [updateUser, setUpdateUser] = useState({ id: '', name: '', email: '' });
@@ -69,17 +83,13 @@ export default function Home() {
     }
   };
 
-
-  return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
-      <div className="space-y-4 w-full max-w-2xl">
+<div className="space-y-4 w-full max-w-2xl">
         <h1 className="text-2xl font-bold text-gray-800 text-center">
           User Management App
         </h1>
       </div>
 
-      {/* Create user */}
-      <form onSubmit={createUser} className="p-4 bg-blue-100 rounded shadow">
+         <form onSubmit={createUser} className="p-4 bg-blue-100 rounded shadow">
         <input
           placeholder="Name"
           value={newUser.name}
@@ -97,7 +107,6 @@ export default function Home() {
         </button>
       </form>
 
-      {/* Update user */}
       <form onSubmit={updateUsers} className="p-4 bg-green-100 rounded shadow">
         <input
           placeholder="User ID"
@@ -122,7 +131,7 @@ export default function Home() {
         </button>
       </form>
 
-      {/* Display users */}
+    
       <div className="space-y-2">
         {user.map((user) => (
           <div key={user.id} className="flex items-center justify-between bg-white p-4 rounded-lg shadow">
@@ -132,9 +141,4 @@ export default function Home() {
             </button>
           </div>
         ))}
-      </div>
-
-
-    </main>
-  )
-}
+      </div> */}
