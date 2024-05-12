@@ -1,28 +1,26 @@
 import React, { useState, useEffect } from "react";
-import axios from 'axios';
+import axios from "axios";
 import CardCompontent from "@/components/CardCompontent";
 import Slider from "@/components/Slider";
+import Sbanner from "@/components/Sbanner";
 
 interface User {
-  id: number
-  name: string
-  email: string
+  id: number;
+  name: string;
+  email: string;
 }
 
 export default function Home() {
-  
-
-
   return (
-    <main >
-      <Slider/>
-      
-
+    <main>
+      <Slider />
+      <Sbanner />
     </main>
-  )
+  );
 }
 
-{/*
+{
+  /*
 const apiUrl = process.env.NEXT_PUBLIC_URL || 'http://localhost:4000';
   const [user, setUser] = useState<User[]>([]);
   const [newUser, setNewUser] = useState({ name: '', email: '' });
@@ -141,4 +139,5 @@ const apiUrl = process.env.NEXT_PUBLIC_URL || 'http://localhost:4000';
             </button>
           </div>
         ))}
-      </div> */}
+      </div> */
+}

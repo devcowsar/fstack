@@ -11,7 +11,7 @@ const Navbar = () => {
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 16 16"
             className="text-primary"
             height="1em"
@@ -21,8 +21,8 @@ const Navbar = () => {
             data-darkreader-inline-fill=""
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M14 5H2V3h12v2zm0 4H2V7h12v2zM2 13h12v-2H2v2z"
             ></path>
           </svg>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 1024 1024"
               className="text-2xl font-medium"
               height="1em"
@@ -109,7 +109,7 @@ const Navbar = () => {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 1024 1024"
                 className="text-2xl font-medium text-white"
                 height="1em"
