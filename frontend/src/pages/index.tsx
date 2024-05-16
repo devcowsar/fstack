@@ -3,6 +3,7 @@ import axios from "axios";
 import CardCompontent from "@/components/CardCompontent";
 import Slider from "@/components/Slider";
 import Sbanner from "@/components/Sbanner";
+import Sbcard from "@/components/Sbcard";
 
 interface User {
   id: number;
@@ -15,6 +16,7 @@ export default function Home() {
     <main>
       <Slider />
       <Sbanner />
+      <Sbcard />
     </main>
   );
 }

@@ -27,21 +27,23 @@ const Navbar = () => {
             ></path>
           </svg>
         </div>
-        <Link
-          className="col-span-6 lg:col-span-3 flex justify-center lg:justify-start"
-          href="/"
-        >
-          <div className="flex gap-5  items-center">
-            <Image
-              className="h-16"
-              src={star}
-              width={80}
-              height={20}
-              alt="Picture of the author"
-            />
-            <p className="lg:text-2xl text-lg text-white">S T R A D A L A</p>
-          </div>
-        </Link>
+        <div>
+          <Link
+            className="col-span-6 lg:col-span-3 flex justify-center lg:justify-start"
+            href="/"
+          >
+            <div className="flex gap-5  items-center">
+              <Image
+                className="h-16"
+                src={star}
+                width={80}
+                height={20}
+                alt="Picture of the author"
+              />
+              <p className="lg:text-2xl text-lg text-white">S T R A D A L A</p>
+            </div>
+          </Link>
+        </div>
         <div className="col-span-3 flex items-center justify-end">
           <Link className="relative mr-2 text-white lg:hidden" href={"/cart"}>
             <small className="absolute top-[-10px] right-[-10px] bg-primary text-white rounded-full text-xs p-1 pl-[5px] w-5 h-5 flex justify-center items-center">

@@ -8,6 +8,7 @@ const nextConfig = {
         hostname: 'assets.example.com',
         port: '',
         pathname: '/account123/**',
+        
       },
     ],
   },
