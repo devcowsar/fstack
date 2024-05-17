@@ -8,7 +8,14 @@ const Footer = () => {
     <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-32 gap-10 bg-white items-center text-center py-10 ">
       <div>
         <div className="flex justify-center gap-2">
-          <Image src={star} alt="" className="h-8" height={60} width={50} />
+          <Image
+            priority={false}
+            src={star}
+            alt=""
+            className="h-8"
+            height={60}
+            width={50}
+          />
           <p className="lg:text-2xl text-xl text-white">S T R A D A L A</p>
         </div>
       </div>

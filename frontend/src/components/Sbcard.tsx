@@ -9,7 +9,7 @@ const Sbcard = () => {
       <div className="image1 hover:scale-105 transition duration-300">
         <div className="grid lg:grid-cols-2 lg:ps-10 justify-center text-center lg:text-start items-center gap-10 py-10">
           <div>
-            <Image src={c1} alt="" width={100} height={100} />
+            <Image priority={false} src={c1} alt="" width={100} height={100} />
           </div>
           <div>
             <button className="text-md font-bold text-white bg-black px-2 py-1">
@@ -28,7 +28,7 @@ const Sbcard = () => {
       <div className="image2 hover:scale-105 transition duration-300">
         <div className="grid lg:grid-cols-2 lg:ps-10 justify-center text-center lg:text-start items-center gap-10  py-10 ">
           <div>
-            <Image src={c2} alt="" width={100} height={100} />
+            <Image priority={false} src={c2} alt="" width={100} height={100} />
           </div>
           <div>
             <button className="text-md font-bold text-white bg-black px-2 py-1">

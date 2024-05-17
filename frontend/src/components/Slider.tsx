@@ -41,6 +41,7 @@ const Slider = () => {
             }`}
           >
             <Image
+              priority={true}
               src={elem.src}
               alt=""
               width={400}

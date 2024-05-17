@@ -5,12 +5,6 @@ import Slider from "@/components/Slider";
 import Sbanner from "@/components/Sbanner";
 import Sbcard from "@/components/Sbcard";
 
-interface User {
-  id: number;
-  name: string;
-  email: string;
-}
-
 export default function Home() {
   return (
     <main>

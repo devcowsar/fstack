@@ -34,6 +34,7 @@ const Navbar = () => {
           >
             <div className="flex gap-5  items-center">
               <Image
+                priority={false}
                 className="h-16"
                 src={star}
                 width={80}
