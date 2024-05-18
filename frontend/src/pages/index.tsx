@@ -4,6 +4,9 @@ import CardCompontent from "@/components/CardCompontent";
 import Slider from "@/components/Slider";
 import Sbanner from "@/components/Sbanner";
 import Sbcard from "@/components/Sbcard";
+import OfferBanner from "@/components/OfferBanner";
+import FdTable from "@/components/FdTable";
+import Cbanner from "@/components/Cbanner";
 
 export default function Home() {
   return (
@@ -11,6 +14,9 @@ export default function Home() {
       <Slider />
       <Sbanner />
       <Sbcard />
+      <OfferBanner />
+      <FdTable />
+      <Cbanner />
     </main>
   );
 }
